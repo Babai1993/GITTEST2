@@ -10,3 +10,1192 @@
 24480          ,63093  ms7_ini(): <<<<< retcode = 36
 
 
+19:24:04,-69296  ODBC_INI(): >>>>> db = 19
+        ,-69296  ODBC_INI(): ODBC , Version Magic xpa 4.10-0 04-Oct-2023
+        ,-69296  Version Magic xpa 4.10, Log = test.logStudio,  Level = R&D,  Sync = Reopen,  Date = 06/05/2024
+        ,-69296  odbc_lib_init(): >>>>>
+        ,-69296  odbc_lib_init(): <<<<< SQL_SUCCESS
+        ,-69296  odbc_ini(): ODBC_stmt
+        ,-69296  ODBC_INI(): <<<<< RETCODE = 36
+
+
+19:24:06,-68281  ODBC_GW(): >>>>>
+( 2 sec),-68281  ODBC_GW(): <<<<<
+
+
+        ,-68281  ODBC_FIL_EXIST(): >>>>> ctxID = -1
+        ,-68281  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 0 , direct_sql = 0
+        ,-68281  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-68281  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-68281  odbc_connect_db (): Allocating a new ODBC_CONN
+        ,-68281  odbc_connect_db (): <<<<< connection = 0
+        ,-68265  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-68265  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-68265  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-68265  dbConnect(): Allocating a new ODBC_CONN
+        ,-68265  ServerInfo_4_ServerID(): >>>>> serverID = 1
+        ,-68265  ServerInfo_4_ServerID(): <<<<< server_info->user_name = ,         server_info->datasource = MySQL80
+        ,-68265  odbc_lib_connect(): >>>>> datasource = MySQL80, user = NULL
+        ,-68265  odbc_lib_connect(): 
+
+        ,-68265  odbc_lib_connect(): SQLAllocConnect() SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQLConnect_U() SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): hdbc = 078F0FF0
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQL_ODBC_VER = ㌰㠮⸰
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQL_ODBC_INTERFACE_CONFORMANCE = 
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68093  odbc_lib_connect(): SQL_DBMS_VER = 08.00.0027
+        ,-68093  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68078  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQL_MAX_TABLE_NAME_LEN = 192
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS_WITH_INFO
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68062  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetInfo_U () SQL_SUCCESS
+        ,-68046  odbc_lib_connect(): SQLGetConnectOption_U (SQL_PACKET_SIZE) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes (): >>>>>
+        ,-68046  odbc_lib_get_datatypes(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes(): SQLGetTypeInfo_U(HSTMT=0799B8D8, SQL_ALL_TYPES) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=bit) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BIT) SQL_SUCCESS
+        ,-68046  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinyint) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TINYINT) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinyint unsigned) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TINYINT) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinyint auto_increment) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TINYINT) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinyint unsigned auto_increment) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TINYINT) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=bigint) SQL_SUCCESS
+        ,-68031  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BIGINT) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=bigint unsigned) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BIGINT) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=bigint auto_increment) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BIGINT) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=bigint unsigned auto_increment) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BIGINT) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68015  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=long varbinary) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARBINARY) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=blob) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARBINARY) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=longblob) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARBINARY) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinyblob) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARBINARY) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumblob) SQL_SUCCESS
+        ,-68000  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARBINARY) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=varbinary) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_VARBINARY) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=binary) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_BINARY) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=long varchar) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARCHAR) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=text) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARCHAR) SQL_SUCCESS
+        ,-67984  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumtext) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARCHAR) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=longtext) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARCHAR) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=tinytext) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_LONGVARCHAR) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=char) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_CHAR) SQL_SUCCESS
+        ,-67968  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=numeric) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_NUMERIC) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=decimal) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_DECIMAL) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=integer) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=integer unsigned) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67953  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=int) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=int unsigned) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumint) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67937  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumint unsigned) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=integer auto_increment) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=integer unsigned auto_increment) SQL_SUCCESS
+        ,-67921  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=int auto_increment) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=int unsigned auto_increment) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumint auto_increment) SQL_SUCCESS
+        ,-67906  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=mediumint unsigned auto_increment) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_INTEGER) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=smallint) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_SMALLINT) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=smallint unsigned) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_SMALLINT) SQL_SUCCESS
+        ,-67890  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=smallint auto_increment) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_SMALLINT) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=smallint unsigned auto_increment) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_SMALLINT) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=double) SQL_SUCCESS
+        ,-67875  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_FLOAT) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=double auto_increment) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_FLOAT) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=float) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_REAL) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=float auto_increment) SQL_SUCCESS
+        ,-67859  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_REAL) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=double) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_DOUBLE) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=double auto_increment) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_DOUBLE) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=date) SQL_SUCCESS
+        ,-67843  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TYPE_DATE) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=time) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TYPE_TIME) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=year) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_SMALLINT) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=datetime) SQL_SUCCESS
+        ,-67828  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TYPE_TIMESTAMP) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=timestamp) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_TYPE_TIMESTAMP) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLFetch(HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, TYPE_NAME=varchar) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLGetData(HSTMT=0799B8D8, DATA_TYPE=SQL_VARCHAR) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67812  odbc_lib_get_datatypes(): data_types =  SQL_BIT,SQL_TINYINT,SQL_TINYINT,SQL_TINYINT,SQL_TINYINT,SQL_BIGINT,SQL_BIGINT,SQL_BIGINT,SQL_BIGINT,SQL_LONGVARBINARY,SQL_LONGVARBINARY,SQL_LONGVARBINARY,SQL_LONGVARBINARY,SQL_LONGVARBINARY,SQL_VARBINARY,SQL_BINARY,SQL_LONGVARCHAR,SQL_LONGVARCHAR,SQL_LONGVARCHAR,SQL_LONGVARCHAR,SQL_LONGVARCHAR,SQL_CHAR,SQL_NUMERIC,SQL_DECIMAL,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_INTEGER,SQL_SMALLINT,SQL_SMALLINT,SQL_SMALLINT,SQL_SMALLINT,SQL_FLOAT,SQL_FLOAT,SQL_REAL,SQL_REAL,SQL_DOUBLE,SQL_DOUBLE,SQL_TYPE_DATE,SQL_TYPE_TIME,SQL_SMALLINT,SQL_TYPE_TIMESTAMP,SQL_TYPE_TIMESTAMP,SQL_VARCHAR
+        ,-67796  odbc_lib_get_datatypes(): type_names =  bit,tinyint,tinyint unsigned,tinyint auto_increment,tinyint unsigned auto_increment,bigint,bigint unsigned,bigint auto_increment,bigint unsigned auto_increment,long varbinary,blob,longblob,tinyblob,mediumblob,varbinary,binary,long varchar,text,mediumtext,longtext,tinytext,char,numeric,decimal,integer,integer unsigned,int,int unsigned,mediumint,mediumint unsigned,integer auto_increment,integer unsigned auto_increment,int auto_increment,int unsigned auto_increment,mediumint auto_increment,mediumint unsigned auto_increment,smallint,smallint unsigned,smallint auto_increment,smallint unsigned auto_increment,double,double auto_increment,float,float auto_increment,double,double auto_increment,date,time,year,datetime,timestamp,varchar
+        ,-67796  odbc_lib_get_datatypes(): <<<<< TRUE
+        ,-67796  odbc_lib_connect(): SQLGetFunctions (HDBC=078F0FF0, SQL_API_ALL_FUNCTIONS) SQL_SUCCESS
+        ,-67796  odbc_lib_connect(): 1 SQL_API_SQLALLOCCONNECT TRUE
+        ,-67796  odbc_lib_connect(): 2 SQL_API_SQLALLOCENV TRUE
+        ,-67796  odbc_lib_connect(): 3 SQL_API_SQLALLOCSTMT TRUE
+        ,-67796  odbc_lib_connect(): 4 SQL_API_SQLBINDCOL TRUE
+        ,-67796  odbc_lib_connect(): 5 SQL_API_SQLCANCEL TRUE
+        ,-67796  odbc_lib_connect(): 6 SQL_API_SQLCOLATTRIBUTES TRUE
+        ,-67781  odbc_lib_connect(): 7 SQL_API_SQLCONNECT TRUE
+        ,-67781  odbc_lib_connect(): 8 SQL_API_SQLDESCRIBECOL TRUE
+        ,-67781  odbc_lib_connect(): 9 SQL_API_SQLDISCONNECT TRUE
+        ,-67781  odbc_lib_connect(): 10 SQL_API_SQLERROR TRUE
+        ,-67781  odbc_lib_connect(): 11 SQL_API_SQLEXECDIRECT TRUE
+        ,-67781  odbc_lib_connect(): 12 SQL_API_SQLEXECUTE TRUE
+        ,-67781  odbc_lib_connect(): 13 SQL_API_SQLFETCH TRUE
+        ,-67781  odbc_lib_connect(): 14 SQL_API_SQLFREECONNECT TRUE
+        ,-67765  odbc_lib_connect(): 15 SQL_API_SQLFREEENV TRUE
+        ,-67765  odbc_lib_connect(): 16 SQL_API_SQLFREESTMT TRUE
+        ,-67765  odbc_lib_connect(): 17 SQL_API_SQLGETCURSORNAME TRUE
+        ,-67765  odbc_lib_connect(): 18 SQL_API_SQLNUMRESULTCOLS TRUE
+        ,-67765  odbc_lib_connect(): 19 SQL_API_SQLPREPARE TRUE
+        ,-67765  odbc_lib_connect(): 20 SQL_API_SQLROWCOUNT TRUE
+        ,-67765  odbc_lib_connect(): 21 SQL_API_SQLSETCURSORNAME TRUE
+        ,-67765  odbc_lib_connect(): 22 SQL_API_SQLSETPARAM TRUE
+        ,-67765  odbc_lib_connect(): 23 SQL_API_SQLTRANSACT TRUE
+        ,-67750  odbc_lib_connect(): 40 SQL_API_SQLCOLUMNS TRUE
+        ,-67750  odbc_lib_connect(): 41 SQL_API_SQLDRIVERCONNECT TRUE
+        ,-67750  odbc_lib_connect(): 42 SQL_API_SQLGETCONNECTOPTION TRUE
+        ,-67750  odbc_lib_connect(): 43 SQL_API_SQLGETDATA TRUE
+        ,-67750  odbc_lib_connect(): 44 SQL_API_SQLGETFUNCTIONS TRUE
+        ,-67750  odbc_lib_connect(): 45 SQL_API_SQLGETINFO TRUE
+        ,-67750  odbc_lib_connect(): 46 SQL_API_SQLGETSTMTOPTION TRUE
+        ,-67734  odbc_lib_connect(): 47 SQL_API_SQLGETTYPEINFO TRUE
+        ,-67734  odbc_lib_connect(): 48 SQL_API_SQLPARAMDATA TRUE
+        ,-67734  odbc_lib_connect(): 49 SQL_API_SQLPUTDATA TRUE
+        ,-67734  odbc_lib_connect(): 50 SQL_API_SQLSETCONNECTOPTION TRUE
+        ,-67734  odbc_lib_connect(): 51 SQL_API_SQLSETSTMTOPTION TRUE
+        ,-67734  odbc_lib_connect(): 52 SQL_API_SQLSPECIALCOLUMNS TRUE
+        ,-67734  odbc_lib_connect(): 53 SQL_API_SQLSTATISTICS TRUE
+        ,-67734  odbc_lib_connect(): 54 SQL_API_SQLTABLES TRUE
+        ,-67718  odbc_lib_connect(): 55 SQL_API_SQLBROWSECONNECT TRUE
+        ,-67718  odbc_lib_connect(): 56 SQL_API_SQLCOLUMNPRIVILEGES TRUE
+        ,-67718  odbc_lib_connect(): 57 SQL_API_SQLDATASOURCES TRUE
+        ,-67718  odbc_lib_connect(): 58 SQL_API_SQLDESCRIBEPARAM TRUE
+        ,-67718  odbc_lib_connect(): 59 SQL_API_SQLEXTENDEDFETCH TRUE
+        ,-67718  odbc_lib_connect(): 60 SQL_API_SQLFOREIGNKEYS TRUE
+        ,-67718  odbc_lib_connect(): 61 SQL_API_SQLMORERESULTS TRUE
+        ,-67718  odbc_lib_connect(): 62 SQL_API_SQLNATIVESQL TRUE
+        ,-67703  odbc_lib_connect(): 63 SQL_API_SQLNUMPARAMS TRUE
+        ,-67703  odbc_lib_connect(): 64 SQL_API_SQLPARAMOPTIONS TRUE
+        ,-67703  odbc_lib_connect(): 65 SQL_API_SQLPRIMARYKEYS TRUE
+        ,-67703  odbc_lib_connect(): 66 SQL_API_SQLPROCEDURECOLUMNS TRUE
+        ,-67703  odbc_lib_connect(): 67 SQL_API_SQLPROCEDURES TRUE
+        ,-67703  odbc_lib_connect(): 68 SQL_API_SQLSETPOS TRUE
+        ,-67703  odbc_lib_connect(): 69 SQL_API_SQLSETSCROLLOPTIONS TRUE
+        ,-67703  odbc_lib_connect(): 70 SQL_API_SQLTABLEPRIVILEGES TRUE
+        ,-67687  odbc_lib_connect(): 71 SQL_API_SQLDRIVERS TRUE
+        ,-67687  odbc_lib_connect(): 72 SQL_API_SQLBINDPARAMETER TRUE
+        ,-67687  odbc_log_connect(): SQL_DRIVER_NAME = myodbc8a.dll
+        ,-67687  odbc_log_connect(): SQL_DBMS_NAME = MySQL
+        ,-67687  odbc_log_connect(): SQL_USER_NAME = root
+        ,-67687  odbc_log_connect(): SQL_USER_NAME = DBMS major version = 8, DBMS minor ver = 0
+        ,-67671  odbc_log_connect(): SQL_DRIVER_ODBC_VER = 03.80, major = 3, minor = 80
+        ,-67671  odbc_log_connect(): SQL_DBMS_NAME = MySQL
+        ,-67671  odbc_log_connect(): SQL_USER_NAME = root
+        ,-67671  odbc_log_connect(): SQL_IDENTIFIER_CASE = 4
+        ,-67671  odbc_log_connect(): SQL_IDENTIFIER_QUOTE_CHAR = `
+        ,-67671  odbc_log_connect(): SQL_QUOTED_IDENTIFIER_CASE = 3
+        ,-67671  odbc_log_connect(): SQL_ACTIVE_CONNECTIONS = 0
+        ,-67671  odbc_log_connect(): SQL_DATA_SOURCE_READ_ONLY = N
+        ,-67656  odbc_log_connect(): SQL_CURSOR_ROLLBACK_BEHAVIOR = SQL_CB_PRESERVE
+        ,-67656  odbc_log_connect(): SQL_CURSOR_COMMIT_BEHAVIOR = SQL_CB_PRESERVE
+        ,-67656  odbc_log_connect(): SQL_CURSOR_ROLLBACK_BEHAVIOR = SQL_CB_PRESERVE
+        ,-67656  odbc_log_connect(): SQL_MAX_QUALIFIER_NAME_LEN = 64
+        ,-67656  odbc_log_connect(): SQL_ODBC_API_CONFORMANCE = SQL_OAC_LEVEL1
+        ,-67656  odbc_log_connect(): SQL_ODBC_SAG_CLI_CONFORMANCE = SQL_OSCC_COMPLIANT
+        ,-67656  odbc_log_connect(): SQL_ODBC_SQL_CONFORMANCE = SQL_OSC_CORE
+        ,-67656  odbc_log_connect(): SQL_NON_NULLABLE_COLUMNS = SQL_NNC_NON_NULL
+        ,-67640  odbc_log_connect(): SQL_NULL_COLLATION = SQL_NC_LOW
+        ,-67640  odbc_log_connect(): SQL_MAX_INDEX_SIZE = 3072
+        ,-67640  odbc_log_connect():  SQL_MAX_COLUMNS_IN_INDEX= 32
+        ,-67640  odbc_log_connect(): SQL_MAX_ROW_SIZE_INCLUDES_LONG = 
+        ,-67640  odbc_log_connect(): SQL_MAX_TABLES_IN_SELECT = 63
+        ,-67640  odbc_log_connect(): SQL_MAX_ROW_SIZE = 0
+        ,-67640  odbc_log_connect(): SQL_MAX_COLUMN_NAME_LEN = 192
+        ,-67625  odbc_log_connect(): SQL_MAX_TABLE_NAME_LEN = 192
+        ,-67625  odbc_log_connect(): SQL_MAX_PROCEDURE_NAME_LEN = 192
+        ,-67625  odbc_log_connect(): SQL_PROCEDURES = Y
+        ,-67625  odbc_log_connect(): SQL_SEARCH_PATTERN_ESCAPE = \
+        ,-67625  odbc_log_connect(): SQL_MAX_COLUMNS_IN_TABLE = 0
+        ,-67625  odbc_log_connect(): SQL_NEED_LONG_DATA_LEN = FALSE
+        ,-67625  odbc_log_connect(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-67609  odbc_log_connect(): SQL_DEFAULT_TXN_ISOLATION = TRANSACTIONS NOT SUPPORTED
+        ,-67609  odbc_log_connect(): SQL_PACKET_SIZE = 8192
+        ,-67609  odbc_log_connect(): SQL_KEYWORDS = ACCESSIBLE,ANALYZE,ASENSITIVE,BEFORE,BIGINT,BINARY,BLOB,CALL,CHANGE,CONDITION,DATABASE,DATABASES,DAY_HOUR,DAY_MICROSECOND,DAY_MINUTE,DAY_SECOND,DELAYED,DETERMINISTIC,DISTINCTROW,DIV,DUAL,EACH,ELSEIF,ENCLOSED,ESCAPED,EXIT,EXPLAIN,FLOAT4,FLOAT8,FORCE,FULLTEXT,GENERAL,GET,HIGH_PRIORITY,HOUR_MICROSECOND,HOUR_MINUTE,HOUR_SECOND,IF,IGNORE,IGNORE_SERVER_IDS,INFILE,INOUT,INT1,INT2,INT3,INT4,INT8,IO_AFTER_GTIDS,IO_BEFORE_GTIDS,ITERATE,KEYS,KILL,LEAVE,LIMIT,LINEAR,LINES,LOAD,LOCALTIME,LOCALTIMESTAMP,LOCK,LONG,LONGBLOB,LONGTEXT,LOOP,LOW_PRIORITY,SOURCE_BIND,SOURCE_HEARTBEAT_PERIOD,SOURCE_SSL_VERIFY_SERVER_CERT,MAXVALUE,MEDIUMBLOB,MEDIUMINT,MEDIUMTEXT,MIDDLEINT,MINUTE_MICROSECOND,MINUTE_SECOND,MOD,MODIFIES,NO_WRITE_TO_BINLOG,NONBLOCKING,ONE_SHOT,OPTIMIZE,OPTIONALLY,OUT,OUTFILE,PARTITION,PURGE,RANGE,READ_ONLY,READS,READ_WRITE,REGEXP,RELEASE,RENAME,REPEAT,REPLACE,REQUIRE,RESIGNAL,RETURN,RLIKE,SCHEMAS,SECOND_MICROSECOND,SENSITIVE,SEPARATOR,SHOW,SIGNAL,SLOW,SPATIAL,SPECIFIC,SQL_AFTER_GTIDS,SQL_BEFORE_
+        ,-67609  odbc_log_connect(): SQL_AUTOCOMMIT on connection = SQL_AUTOCOMMIT_ON
+        ,-67609  odbc_driver_support(): >>>>>datasource = MySQL80 
+        ,-67609  odbc_driver_support(): <<<<< TRUE
+        ,-67609  odbc_fill_search(): >>>>> types_cnt = 52
+        ,-67593  odbc_text_to_sqltype(): >>>>> SQL_BIT
+        ,-67593  odbc_text_to_sqltype(): <<<<< SQL_BIT
+        ,-67593  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BIT
+        ,-67593  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67593  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67593  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67578  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67578  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67578  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67578  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67578  odbc_text_to_sqltype(): >>>>> SQL_TINYINT
+        ,-67578  odbc_text_to_sqltype(): <<<<< SQL_TINYINT
+        ,-67578  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TINYINT
+        ,-67578  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67562  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67562  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67562  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67562  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67562  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67562  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67546  odbc_text_to_sqltype(): >>>>> SQL_TINYINT
+        ,-67546  odbc_text_to_sqltype(): <<<<< SQL_TINYINT
+        ,-67546  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TINYINT
+        ,-67546  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67546  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67546  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67531  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67531  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67531  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67531  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67531  odbc_text_to_sqltype(): >>>>> SQL_TINYINT
+        ,-67515  odbc_text_to_sqltype(): <<<<< SQL_TINYINT
+        ,-67515  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TINYINT
+        ,-67515  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67515  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67515  odbc_text_to_sqltype(): >>>>> SQL_TINYINT
+        ,-67515  odbc_text_to_sqltype(): <<<<< SQL_TINYINT
+        ,-67515  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TINYINT
+        ,-67515  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67515  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67500  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67500  odbc_text_to_sqltype(): >>>>> SQL_BIGINT
+        ,-67500  odbc_text_to_sqltype(): <<<<< SQL_BIGINT
+        ,-67500  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BIGINT
+        ,-67500  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67500  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67500  odbc_text_to_sqltype(): >>>>> SQL_BIGINT
+        ,-67500  odbc_text_to_sqltype(): <<<<< SQL_BIGINT
+        ,-67500  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BIGINT
+        ,-67500  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67500  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67500  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67500  odbc_text_to_sqltype(): >>>>> SQL_BIGINT
+        ,-67484  odbc_text_to_sqltype(): <<<<< SQL_BIGINT
+        ,-67484  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BIGINT
+        ,-67484  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67484  odbc_text_to_sqltype(): >>>>> SQL_BIGINT
+        ,-67484  odbc_text_to_sqltype(): <<<<< SQL_BIGINT
+        ,-67484  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BIGINT
+        ,-67484  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67484  odbc_text_to_sqltype(): >>>>> SQL_LONGVARBINARY
+        ,-67484  odbc_text_to_sqltype(): <<<<< SQL_LONGVARBINARY
+        ,-67484  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARBINARY
+        ,-67484  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67484  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67484  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67484  odbc_text_to_sqltype(): >>>>> SQL_LONGVARBINARY
+        ,-67484  odbc_text_to_sqltype(): <<<<< SQL_LONGVARBINARY
+        ,-67484  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARBINARY
+        ,-67484  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67468  odbc_text_to_sqltype(): >>>>> SQL_LONGVARBINARY
+        ,-67468  odbc_text_to_sqltype(): <<<<< SQL_LONGVARBINARY
+        ,-67468  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARBINARY
+        ,-67468  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67468  odbc_text_to_sqltype(): >>>>> SQL_LONGVARBINARY
+        ,-67468  odbc_text_to_sqltype(): <<<<< SQL_LONGVARBINARY
+        ,-67468  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARBINARY
+        ,-67468  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67468  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67468  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67468  odbc_text_to_sqltype(): >>>>> SQL_LONGVARBINARY
+        ,-67453  odbc_text_to_sqltype(): <<<<< SQL_LONGVARBINARY
+        ,-67453  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARBINARY
+        ,-67453  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67453  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67453  odbc_text_to_sqltype(): >>>>> SQL_VARBINARY
+        ,-67453  odbc_text_to_sqltype(): <<<<< SQL_VARBINARY
+        ,-67453  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_VARBINARY
+        ,-67453  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67453  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67453  odbc_text_to_sqltype(): >>>>> SQL_BINARY
+        ,-67453  odbc_text_to_sqltype(): <<<<< SQL_BINARY
+        ,-67453  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_BINARY
+        ,-67453  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67453  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67437  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67437  odbc_text_to_sqltype(): >>>>> SQL_LONGVARCHAR
+        ,-67437  odbc_text_to_sqltype(): <<<<< SQL_LONGVARCHAR
+        ,-67437  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARCHAR
+        ,-67437  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67437  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67437  odbc_text_to_sqltype(): >>>>> SQL_LONGVARCHAR
+        ,-67437  odbc_text_to_sqltype(): <<<<< SQL_LONGVARCHAR
+        ,-67437  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARCHAR
+        ,-67437  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67437  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67437  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67421  odbc_text_to_sqltype(): >>>>> SQL_LONGVARCHAR
+        ,-67421  odbc_text_to_sqltype(): <<<<< SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67421  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67421  odbc_text_to_sqltype(): >>>>> SQL_LONGVARCHAR
+        ,-67421  odbc_text_to_sqltype(): <<<<< SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67421  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67421  odbc_text_to_sqltype(): >>>>> SQL_LONGVARCHAR
+        ,-67421  odbc_text_to_sqltype(): <<<<< SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_LONGVARCHAR
+        ,-67421  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67421  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67406  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67406  odbc_text_to_sqltype(): >>>>> SQL_CHAR
+        ,-67406  odbc_text_to_sqltype(): <<<<< SQL_CHAR
+        ,-67406  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_CHAR
+        ,-67406  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67406  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67406  odbc_text_to_sqltype(): >>>>> SQL_NUMERIC
+        ,-67406  odbc_text_to_sqltype(): <<<<< SQL_NUMERIC
+        ,-67406  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_NUMERIC
+        ,-67406  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67406  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67390  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67390  odbc_text_to_sqltype(): >>>>> SQL_DECIMAL
+        ,-67390  odbc_text_to_sqltype(): <<<<< SQL_DECIMAL
+        ,-67390  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_DECIMAL
+        ,-67390  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67390  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67390  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67390  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67390  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67390  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67390  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67375  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67375  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67375  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67375  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67375  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67375  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67375  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67375  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67375  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67375  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67375  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67375  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67359  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67359  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67359  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67359  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67359  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67359  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67359  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67359  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67359  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67359  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67343  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67343  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67343  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67343  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67343  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67343  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67343  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67343  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67343  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67343  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67343  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67328  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67328  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67328  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67328  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67328  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67328  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67328  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67328  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67328  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67312  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67312  odbc_text_to_sqltype(): >>>>> SQL_INTEGER
+        ,-67312  odbc_text_to_sqltype(): <<<<< SQL_INTEGER
+        ,-67312  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_INTEGER
+        ,-67312  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67312  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67312  odbc_text_to_sqltype(): >>>>> SQL_SMALLINT
+        ,-67312  odbc_text_to_sqltype(): <<<<< SQL_SMALLINT
+        ,-67312  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_SMALLINT
+        ,-67312  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67312  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67296  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67296  odbc_text_to_sqltype(): >>>>> SQL_SMALLINT
+        ,-67296  odbc_text_to_sqltype(): <<<<< SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67296  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67296  odbc_text_to_sqltype(): >>>>> SQL_SMALLINT
+        ,-67296  odbc_text_to_sqltype(): <<<<< SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67296  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67296  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67296  odbc_text_to_sqltype(): >>>>> SQL_SMALLINT
+19:24:07,-67296  odbc_text_to_sqltype(): <<<<< SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_SMALLINT
+        ,-67296  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67281  odbc_text_to_sqltype(): >>>>> SQL_FLOAT
+        ,-67281  odbc_text_to_sqltype(): <<<<< SQL_FLOAT
+        ,-67281  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_FLOAT
+        ,-67281  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67281  odbc_text_to_sqltype(): >>>>> SQL_FLOAT
+        ,-67281  odbc_text_to_sqltype(): <<<<< SQL_FLOAT
+        ,-67281  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_FLOAT
+        ,-67281  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67281  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67281  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67265  odbc_text_to_sqltype(): >>>>> SQL_REAL
+        ,-67265  odbc_text_to_sqltype(): <<<<< SQL_REAL
+        ,-67265  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_REAL
+        ,-67265  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): search_able = SQL_UNSEARCHABLE
+        ,-67265  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): <<<<< FALSE
+        ,-67265  odbc_text_to_sqltype(): >>>>> SQL_REAL
+        ,-67265  odbc_text_to_sqltype(): <<<<< SQL_REAL
+        ,-67265  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_REAL
+        ,-67265  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): search_able = SQL_UNSEARCHABLE
+        ,-67265  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67265  odbc_lib_sqltype_searchable(): <<<<< FALSE
+        ,-67265  odbc_text_to_sqltype(): >>>>> SQL_DOUBLE
+        ,-67265  odbc_text_to_sqltype(): <<<<< SQL_DOUBLE
+        ,-67250  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_DOUBLE
+        ,-67250  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67250  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67250  odbc_text_to_sqltype(): >>>>> SQL_DOUBLE
+        ,-67250  odbc_text_to_sqltype(): <<<<< SQL_DOUBLE
+        ,-67250  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_DOUBLE
+        ,-67250  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67250  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67250  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67250  odbc_text_to_sqltype(): >>>>> SQL_TYPE_DATE
+        ,-67250  odbc_text_to_sqltype(): <<<<< SQL_TYPE_DATE
+        ,-67250  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TYPE_DATE
+        ,-67250  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67234  odbc_text_to_sqltype(): >>>>> SQL_TYPE_TIME
+        ,-67234  odbc_text_to_sqltype(): <<<<< SQL_TYPE_TIME
+        ,-67234  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TYPE_TIME
+        ,-67234  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67234  odbc_text_to_sqltype(): >>>>> SQL_SMALLINT
+        ,-67234  odbc_text_to_sqltype(): <<<<< SQL_SMALLINT
+        ,-67234  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_SMALLINT
+        ,-67234  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67234  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67234  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67234  odbc_text_to_sqltype(): >>>>> SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_text_to_sqltype(): <<<<< SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67218  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67218  odbc_text_to_sqltype(): >>>>> SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_text_to_sqltype(): <<<<< SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_TYPE_TIMESTAMP
+        ,-67218  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67218  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67218  odbc_text_to_sqltype(): >>>>> SQL_VARCHAR
+        ,-67218  odbc_text_to_sqltype(): <<<<< SQL_VARCHAR
+        ,-67218  odbc_lib_sqltype_searchable(): >>>>> sqltype = SQL_VARCHAR
+        ,-67218  odbc_lib_sqltype_searchable(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLFetch () SQL_SUCCESS
+        ,-67218  odbc_lib_sqltype_searchable(): SQLGetData () SQL_SUCCESS
+        ,-67203  odbc_lib_sqltype_searchable(): search_able = SQL_SEARCHABLE
+        ,-67203  odbc_lib_sqltype_searchable(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67203  odbc_lib_sqltype_searchable(): <<<<< TRUE
+        ,-67203  odbc_fill_search(): <<<<< number of type = 51
+        ,-67203  odbc_lib_connect(): <<<<< TRUE
+        ,-67203  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_OK
+        ,-67203  odbc_map_error(): >>>>> errcode = 0
+        ,-67203  odbc_map_error(): save_error = 1
+        ,-67203  odbc_map_error(): error code = 0
+        ,-67203  odbc_map_error(): <<<<< return code=0
+        ,-67203  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-67203  odbc_get_dbd(): <<<<< offset = 0
+        ,-67203  odbc_lib_autocommit(): >>>>> ON
+        ,-67203  odbc_lib_autocommit(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-67203  odbc_lib_autocommit(): HDBC:078F0FF0 (READ_WRITE) SQL_AUTOCOMMIT on read_write connection = SQL_AUTOCOMMIT_ON
+        ,-67203  odbc_lib_autocommit(): <<<<< returning TRUE
+        ,-67203  odbc_resize_buffer(): >>>>> size = 2560
+        ,-67203  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-67203  odbc_lib_fil_exist()>>>>> datasource - MySQL80, owner - , table - Test3, hdbc - 078F0FF0
+        ,-67203  odbc_lib_fil_exist(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67156  odbc_lib_fil_exist(): SQLTables_U() SQL_SUCCESS
+        ,-67156  odbc_lib_fil_exist(): SQLFetch() SQL_SUCCESS
+        ,-67156  odbc_lib_fil_exist(): SQLGetData() SQL_SUCCESS
+        ,-67156  odbc_lib_fil_exist(): SQLFetch() SQL_NO_DATA_FOUND
+        ,-67156  odbc_lib_fil_exist(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67156  odbc_lib_fil_exist(): <<<<< Test3 exists returning 
+        ,-67156  odbc_fil_exist(): file : Test3 EXISTS
+        ,-67156  odbc_perform_release(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67156  odbc_perform_release(): <<<<< ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67156  ODBC_FIL_EXIST(): <<<<< ctxID = -1, RETCODE = 0
+
+
+        ,-67125  ODBC_FIL_CHECK(): >>>>> ctxID = -1, file : 
+        ,-67125  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 1 , direct_sql = 0
+        ,-67125  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-67125  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-67125  odbc_connect_db (): <<<<< connection = 0
+        ,-67125  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-67125  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-67125  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67125  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_OK
+        ,-67125  odbc_lib_autocommit(): >>>>> ON
+        ,-67125  odbc_lib_autocommit(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-67125  odbc_lib_autocommit(): HDBC:078F0FF0 (READ_WRITE) SQL_AUTOCOMMIT on read_write connection = SQL_AUTOCOMMIT_ON
+        ,-67125  odbc_lib_autocommit(): <<<<< returning TRUE
+        ,-67125  odbc_resize_buffer(): >>>>> size = 2560
+        ,-67109  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-67109  ODBC_FIL_CHECK(): <<<<<ctxID = -1, No suffiecient Information 
+        ,-67109  odbc_check_keys(): >>>>> 1 keys
+        ,-67109  odbc_check_keys(): doing key 0
+        ,-67109  odbc_check_keys(): <<<<< returned TRUE
+        ,-67109  odbc_perform_release(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67109  odbc_perform_release(): <<<<< ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67109  ODBC_FIL_CHECK(): <<<<< ctxID = -1, RETCODE = RET_OK
+
+
+        ,-67109  ODBC_FIL_EXIST(): >>>>> ctxID = -1
+        ,-67109  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 1 , direct_sql = 0
+        ,-67109  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-67109  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-67109  odbc_connect_db (): <<<<< connection = 0
+        ,-67109  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-67109  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-67109  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67109  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_OK
+        ,-67109  odbc_map_error(): >>>>> errcode = 0
+        ,-67109  odbc_map_error(): save_error = 1
+        ,-67109  odbc_map_error(): error code = 0
+        ,-67109  odbc_map_error(): <<<<< return code=0
+        ,-67109  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-67109  odbc_get_dbd(): <<<<< offset = 0
+        ,-67093  odbc_lib_autocommit(): >>>>> ON
+        ,-67093  odbc_lib_autocommit(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-67093  odbc_lib_autocommit(): HDBC:078F0FF0 (READ_WRITE) SQL_AUTOCOMMIT on read_write connection = SQL_AUTOCOMMIT_ON
+        ,-67093  odbc_lib_autocommit(): <<<<< returning TRUE
+        ,-67093  odbc_resize_buffer(): >>>>> size = 2560
+        ,-67093  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-67093  odbc_lib_fil_exist()>>>>> datasource - MySQL80, owner - , table - Test3fff, hdbc - 078F0FF0
+        ,-67093  odbc_lib_fil_exist(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-67093  odbc_lib_fil_exist(): SQLTables_U() SQL_SUCCESS
+        ,-67093  odbc_lib_fil_exist(): SQLFetch() SQL_NO_DATA_FOUND
+        ,-67093  odbc_lib_fil_exist(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-67093  odbc_lib_fil_exist(): <<<<< file Test3fff does not exist returning
+        ,-67093  odbc_fil_exist(): file : Test3fff DOES NOT EXIST
+        ,-67093  odbc_perform_release(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67093  odbc_perform_release(): <<<<< ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-67093  ODBC_FIL_EXIST(): <<<<< ctxID = -1, RETCODE = 62
+
+
+19:24:10,-64281  ODBC_FIL_RENAME(): >>>>> ctxID = -1, from_file : Test3 in MySQL80, to_file : Test3fff in MySQL80
+( 3 sec),-64281  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 1 , direct_sql = 0
+        ,-64281  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-64281  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-64281  odbc_connect_db (): <<<<< connection = 0
+        ,-64281  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-64281  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-64281  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-64281  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_OK
+        ,-64281  odbc_lib_autocommit(): >>>>> ON
+        ,-64281  odbc_lib_autocommit(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-64281  odbc_lib_autocommit(): HDBC:078F0FF0 (READ_WRITE) SQL_AUTOCOMMIT on read_write connection = SQL_AUTOCOMMIT_ON
+        ,-64281  odbc_lib_autocommit(): <<<<< returning TRUE
+        ,-64281  odbc_resize_buffer(): >>>>> size = 2560
+        ,-64265  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-64265  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-64265  odbc_get_dbd(): <<<<< offset = 0
+        ,-64265  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-64265  odbc_get_dbd(): <<<<< offset = 1
+        ,-64265  odbc_name_to_quoted(): >>>>> name = Test3
+        ,-64265  odbc_name_to_quoted(): <<<<< Quoted_name = `Test3`
+        ,-64265  odbc_name_to_quoted(): >>>>> name = Test3fff
+        ,-64265  odbc_name_to_quoted(): <<<<< Quoted_name = `Test3fff`
+        ,-64265  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 1 , direct_sql = 0
+        ,-64265  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-64265  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-64265  odbc_connect_db (): <<<<< connection = 0
+        ,-64265  ODBC_FIL_DEL(): >>>>> ctxID = -1, datasource = MySQL80, file = Test3fff
+        ,-64265  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-64265  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-64265  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-64265  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_ALREADY_HELD
+        ,-64265  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-64265  odbc_get_dbd(): <<<<< offset = 2
+        ,-64250  odbc_resize_buffer(): >>>>> size = 2560
+        ,-64250  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-64250  odbc_stmt_get(): >>>>>
+        ,-64250  odbc_stmt_get(): <<<<< returning index 0
+        ,-64203  odbc_name_to_quoted(): >>>>> name = Test3fff
+        ,-64203  odbc_name_to_quoted(): <<<<< Quoted_name = `Test3fff`
+        ,-64203  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 DROP TABLE `Test3fff`
+        ,-64203  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64203  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-64187  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_ERROR
+        ,-64187  odbc_lib_error_handler(): >>>>> hdbc = 078F0FF0, hstmt = 0799B8D8, last retcode = SQL_ERROR
+        ,-64187  odbc_lib_error_handler(): SQLError_U() SQL_SUCCESS
+        ,-64187  odbc_lib_error_handler(): hdbc = 078F0FF0, hstmt = 0799B8D8
+        ,-64187  odbc_lib_error_handler(): sqlstate = 42S02
+        ,-64187  odbc_lib_error_handler(): native error = 1051
+        ,-64187  odbc_lib_error_handler(): num_bytes = 78
+        ,-64187  odbc_lib_error_handler(): <<<<< 
+[MySQL][ODBC 8.0(a) Driver][mysqld-8.0.27]Unknown table 'magic_babai.test3fff'
+        ,-64187  odbc_lib_exec_direct(): <<<<< FALSE
+        ,-64187  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-64187  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-64187  odbc_lib_close(): <<<<< TRUE
+        ,-64187  ODBC_FIL_DEL(): <<<<< ctxID = -1, RETCODE = 0
+
+
+        ,-64187  odbc_fil_create(): >>>>> table name - `Test3fff`
+        ,-64187  odbc_stmt_get(): >>>>>
+        ,-64187  odbc_stmt_get(): <<<<< returning index 0
+        ,-64187  odbc_name_to_quoted(): >>>>> name = ID1
+        ,-64187  odbc_name_to_quoted(): <<<<< Quoted_name = `ID1`
+        ,-64171  odbc_fil_create(): idx = 0, field_type[0] = 6,len = 8
+        ,-64171  odbc_storage_to_sql_type(): >>>>> 
+        ,-64171  odbc_storage_to_sql_type(): <<<<< SQL_DOUBLE
+        ,-64171  odbc_storage_to_datasource_type(): >>>>> storage = STORAGE_NUMERIC_FLOAT, length = 8
+        ,-64171  odbc_lib_sql_to_datasource_type(): >>>>> sql_type = SQL_DOUBLE, length = 8
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLFetch () SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLGetData () SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): type_name = double
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLGetData () SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): create_params = NULL
+        ,-64171  odbc_lib_sql_to_datasource_type(): SQLFreeStmt (HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-64171  odbc_lib_sql_to_datasource_type(): datasource type = double
+        ,-64171  odbc_lib_sql_to_datasource_type(): <<<<< returning TRUE
+        ,-64171  odbc_storage_to_datasource_type(): <<<<< returning double
+        ,-64171  odbc_storage_to_sql_type(): >>>>> 
+        ,-64171  odbc_storage_to_sql_type(): <<<<< SQL_DOUBLE
+        ,-64171  odbc_lib_nullable_from_type_info (): >>>>>
+        ,-64171  odbc_lib_nullable_from_type_info(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64171  odbc_lib_nullable_from_type_info(): SQLGetTypeInfo_U(HSTMT=0799B8D8, sqltype) SQL_SUCCESS
+        ,-64171  odbc_lib_nullable_from_type_info(): SQLFetch(HSTMT=0799B8D8) type= SQL_DOUBLE SQL_SUCCESS
+        ,-64171  odbc_lib_nullable_from_type_info(): SQLGetData(HSTMT=0799B8D8 ) SQL_SUCCESS
+        ,-64171  odbc_lib_nullable_from_type_info():<<<<< SQL_NULLABLE 
+        ,-64171  odbc_lib_nullable_from_type_info (): <<<<<
+        ,-64171  odbc_name_to_quoted(): >>>>> name = Name
+        ,-64171  odbc_name_to_quoted(): <<<<< Quoted_name = `Name`
+        ,-64171  odbc_fil_create(): idx = 1, field_type[0] = 3,len = 10
+        ,-64171  odbc_storage_to_sql_type(): >>>>> 
+        ,-64156  odbc_storage_to_sql_type(): <<<<< SQL_CHAR
+        ,-64156  odbc_storage_to_datasource_type(): >>>>> storage = STORAGE_ALPHA_ZSTRING, length = 10
+        ,-64156  odbc_lib_sql_to_datasource_type(): >>>>> sql_type = SQL_CHAR, length = 10
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLGetTypeInfo_U () SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLFetch () SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLGetData () SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): type_name = char
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLGetData () SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): create_params = length
+        ,-64156  odbc_lib_sql_to_datasource_type(): SQLFreeStmt (HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-64156  odbc_lib_sql_to_datasource_type(): datasource type = char(10)
+        ,-64156  odbc_lib_sql_to_datasource_type(): <<<<< returning TRUE
+        ,-64156  odbc_storage_to_datasource_type(): <<<<< returning char(10)
+        ,-64156  odbc_storage_to_sql_type(): >>>>> 
+        ,-64156  odbc_storage_to_sql_type(): <<<<< SQL_CHAR
+        ,-64156  odbc_lib_nullable_from_type_info (): >>>>>
+        ,-64156  odbc_lib_nullable_from_type_info(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64156  odbc_lib_nullable_from_type_info(): SQLGetTypeInfo_U(HSTMT=0799B8D8, sqltype) SQL_SUCCESS
+        ,-64156  odbc_lib_nullable_from_type_info(): SQLFetch(HSTMT=0799B8D8) type= SQL_CHAR SQL_SUCCESS
+        ,-64156  odbc_lib_nullable_from_type_info(): SQLGetData(HSTMT=0799B8D8 ) SQL_SUCCESS
+        ,-64156  odbc_lib_nullable_from_type_info():<<<<< SQL_NULLABLE 
+        ,-64156  odbc_lib_nullable_from_type_info (): <<<<<
+        ,-64156  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 CREATE TABLE `Test3fff` (`ID1` double NOT NULL,`Name` char(10) ASCII NOT NULL)
+        ,-64156  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64156  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-64093  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_SUCCESS
+        ,-64093  odbc_lib_exec_direct(): <<<<< TRUE
+        ,-64093  odbc_lib_transact(): >>>>> SQL_COMMIT hdbc = 078F0FF0
+        ,-64093  odbc_lib_transact(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-64093  odbc_lib_transact(): SQLTransact(078F0FF0) SQL_SUCCESS READ_WRITE CONNECTION
+        ,-64093  odbc_lib_transact(): <<<<< TRUE
+        ,-64093  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-64093  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-64093  odbc_lib_close(): <<<<< TRUE
+        ,-64093  odbc_fil_create(): <<<<<  TRUE
+        ,-64093  odbc_lib_fil_exist()>>>>> datasource - MySQL80, owner - , table - Test3, hdbc - 078F0FF0
+        ,-64093  odbc_lib_fil_exist(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64093  odbc_lib_fil_exist(): SQLTables_U() SQL_SUCCESS
+        ,-64093  odbc_lib_fil_exist(): SQLFetch() SQL_SUCCESS
+        ,-64093  odbc_lib_fil_exist(): SQLGetData() SQL_SUCCESS
+        ,-64093  odbc_lib_fil_exist(): SQLFetch() SQL_NO_DATA_FOUND
+        ,-64093  odbc_lib_fil_exist(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-64093  odbc_lib_fil_exist(): <<<<< Test3 exists returning 
+        ,-64093  odbc_stmt_get(): >>>>>
+        ,-64093  odbc_stmt_get(): <<<<< returning index 0
+        ,-64093  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 INSERT INTO `Test3fff` SELECT * FROM `Test3`
+        ,-64093  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64078  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-64078  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_SUCCESS
+        ,-64078  odbc_lib_exec_direct(): <<<<< TRUE
+        ,-64078  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-64078  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-64078  odbc_lib_close(): <<<<< TRUE
+        ,-64078  odbc_drop_indexes(): >>>>> number of indexes to drop : 1
+        ,-64078  odbc_drop_index(): >>>>> key to drop = 0
+        ,-64062  odbc_stmt_get(): >>>>>
+        ,-64062  odbc_stmt_get(): <<<<< returning index 0
+        ,-64062  odbc_name_to_quoted(): >>>>> name = idx
+        ,-64062  odbc_name_to_quoted(): <<<<< Quoted_name = `idx`
+        ,-64062  odbc_lib_drop_info (): >>>>> 
+        ,-64062  odbc_lib_drop_info(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64062  odbc_lib_drop_info(): SQLStatistics_U(T) SQL_SUCCESS
+        ,-64062  odbc_lib_drop_info(): SQLFetch() SQL_SUCCESS
+        ,-64062  odbc_lib_drop_info(): SQLGetData (INDEX_QUALIFIER) SQL_SUCCESS
+        ,-64062  odbc_lib_drop_info(): SQLGetData(TYPE) SQL_SUCCESS
+        ,-64062  odbc_lib_drop_info(): 
+        ,-64046  odbc_lib_drop_info(): SQLFetch() SQL_NO_DATA_FOUND
+        ,-64046  odbc_lib_drop_info(): SQLFreeStmt(HSTMT=0799B8D8, SQL_DROP) SQL_SUCCESS
+        ,-64046  odbc_lib_drop_info(): <<<<< TRUE
+        ,-64046  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 DROP INDEX `idx`
+        ,-64046  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-64046  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-64046  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_ERROR
+        ,-64046  odbc_lib_error_handler(): >>>>> hdbc = 078F0FF0, hstmt = 0799B8D8, last retcode = SQL_ERROR
+        ,-64046  odbc_lib_error_handler(): SQLError_U() SQL_SUCCESS
+        ,-64046  odbc_lib_error_handler(): hdbc = 078F0FF0, hstmt = 0799B8D8
+        ,-64046  odbc_lib_error_handler(): sqlstate = 42000
+        ,-64046  odbc_lib_error_handler(): native error = 1064
+        ,-64046  odbc_lib_error_handler(): num_bytes = 188
+        ,-64046  odbc_lib_error_handler(): <<<<< error text =
+[MySQL][ODBC 8.0(a) Driver][mysqld-8.0.27]You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+        ,-64046  odbc_lib_exec_direct(): <<<<< FALSE
+        ,-64046  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 ALTER TABLE `Test3` DROP INDEX `idx`
+        ,-64000  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_SUCCESS
+        ,-64000  odbc_lib_exec_direct(): <<<<< TRUE
+        ,-64000  odbc_lib_transact(): >>>>> SQL_COMMIT hdbc = 078F0FF0
+        ,-64000  odbc_lib_transact(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-64000  odbc_lib_transact(): SQLTransact(078F0FF0) SQL_SUCCESS READ_WRITE CONNECTION
+        ,-64000  odbc_lib_transact(): <<<<< TRUE
+        ,-64000  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-64000  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-64000  odbc_lib_close(): <<<<< TRUE
+        ,-64000  odbc_drop_index(): <<<<< TRUE
+        ,-64000  odbc_drop_indexes(): <<<<< TRUE
+        ,-64000  odbc_add_indexes(): >>>>> number = 1
+        ,-64000  odbc_add_index(): >>>>> number = 0
+        ,-64000  odbc_name_to_quoted(): >>>>> name = ID1
+        ,-64000  odbc_name_to_quoted(): <<<<< Quoted_name = `ID1`
+        ,-64000  odbc_stmt_get(): >>>>>
+        ,-64000  odbc_stmt_get(): <<<<< returning index 1
+        ,-64000  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 CREATE UNIQUE INDEX `idx` ON `Test3fff` (`ID1` ASC)
+        ,-64000  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-63984  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-63937  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_SUCCESS
+        ,-63937  odbc_lib_exec_direct(): <<<<< TRUE
+        ,-63937  odbc_lib_transact(): >>>>> SQL_COMMIT hdbc = 078F0FF0
+        ,-63937  odbc_lib_transact(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-63937  odbc_lib_transact(): SQLTransact(078F0FF0) SQL_SUCCESS READ_WRITE CONNECTION
+        ,-63921  odbc_lib_transact(): <<<<< TRUE
+        ,-63921  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-63921  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-63921  odbc_lib_close(): <<<<< TRUE
+        ,-63921  odbc_add_index(): <<<<< TRUE
+        ,-63921  odbc_add_indexes(): <<<<< TRUE
+        ,-63921  odbc_connect_db (): >>>>> datasource = MySQL80, Odbc_connection_cnt = 1 , direct_sql = 0
+        ,-63921  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-63921  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-63921  odbc_connect_db (): <<<<< connection = 0
+        ,-63921  ODBC_FIL_DEL(): >>>>> ctxID = -1, datasource = MySQL80, file = Test3
+        ,-63921  ServerInfo_2_ServerID(): >>>>> db_ptr->db_srvr = , db_ptr->user_name = , db_ptr->db_name = MySQL80
+        ,-63921  ServerInfo_2_ServerID(): <<<<< serverID = 1 
+        ,-63921  odbc_perform_hold(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-63921  odbc_perform_hold(): <<<<< ctxID = -1, retval = 0, RC = RC_ALREADY_HELD
+        ,-63921  odbc_get_dbd(): >>>>> datasource = MySQL80 Odbc_dbd_cnt = 5
+        ,-63921  odbc_get_dbd(): <<<<< offset = 2
+        ,-63921  odbc_resize_buffer(): >>>>> size = 2560
+        ,-63921  odbc_resize_buffer(): <<<<< new size = 2560
+        ,-63921  odbc_stmt_get(): >>>>>
+        ,-63921  odbc_stmt_get(): <<<<< returning index 2
+        ,-63921  odbc_name_to_quoted(): >>>>> name = Test3
+        ,-63921  odbc_name_to_quoted(): <<<<< Quoted_name = `Test3`
+        ,-63921  odbc_lib_exec_direct(): >>>>> hdbc = 078F0FF0
+	 DROP TABLE `Test3`
+        ,-63921  odbc_lib_exec_direct(): SQLAllocStmt(HDBC=078F0FF0, HSTMT=0799B8D8) SQL_SUCCESS
+        ,-63921  odbc_lib_exec_direct(): SQLSetStmtOption (HSTMT:0799B8D8, SQL_ROWSET_SIZE) SQL_SUCCESS
+        ,-63906  odbc_lib_exec_direct(): SQLExecDirect_U (0799B8D8) SQL_SUCCESS
+        ,-63906  odbc_lib_exec_direct(): <<<<< TRUE
+        ,-63906  odbc_lib_close(): >>>>> hstmt = 0799B8D8
+        ,-63906  odbc_lib_close(): SQLFreeStmt(SQL_DROP) SQL_SUCCESS
+        ,-63906  odbc_lib_close(): <<<<< TRUE
+        ,-63906  ODBC_FIL_DEL(): <<<<< ctxID = -1, RETCODE = 0
+
+
+        ,-63906  odbc_lib_transact(): >>>>> SQL_COMMIT hdbc = 078F0FF0
+        ,-63906  odbc_lib_transact(): SQL_TXN_CAPABLE = SQL_TC_DDL_COMMIT
+        ,-63890  odbc_lib_transact(): SQLTransact(078F0FF0) SQL_SUCCESS READ_WRITE CONNECTION
+        ,-63890  odbc_lib_transact(): <<<<< TRUE
+        ,-63890  odbc_perform_release(): >>>>> ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-63890  odbc_perform_release(): <<<<< ctxID = -1, serverID = 1, conn_hdl = 0
+        ,-63890  ODBC_FIL_RENAME(): <<<<< ctxID = -1, RETCODE = 0
+
+
