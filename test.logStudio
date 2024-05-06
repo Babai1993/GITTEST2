@@ -1,0 +1,12 @@
+﻿24480  17:20:24,12421  sql3_ini(): >>>>>
+24480          ,12421  sql3_ini(): SQLite , Version Magic xpa 4.10-0 04-Oct-2023
+24480          ,12421  Version Magic xpa 4.10, Log = test.logStudio,  Level = Support/QA,  Sync = Reopen,  Date = 20/03/2024
+24480          ,12421  sql3_ini(): <<<<< retcode = 36
+
+
+24480  17:21:15,63093  ms7_ini(): >>>>>
+24480          ,63093  ms7_ini(): MicrosoftSQLServer , Version Magic xpa 4.10-0 04-Oct-2023
+24480          ,63093  Version Magic xpa 4.10, Log = test.logStudio,  Level = R&D,  Sync = Reopen,  Date = 20/03/2024
+24480          ,63093  ms7_ini(): <<<<< retcode = 36
+
+

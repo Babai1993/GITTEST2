@@ -1,0 +1,14 @@
+﻿ <-1> 27/03/2024 18:03:22.732     [Action ] - 2,40453  LogStart() : >>>>> ***** SQLite *****
+ <-1> 27/03/2024 18:03:22.733     [Action ] -  ,40453  Version Magic xpa 4.10, Log = test.log,  Level = R&D,  Sync = Reopen,  Date = 27/03/2024
+ <-1> 27/03/2024 18:03:22.734     [Action ] -  ,40468  LogStart() : <<<<<
+
+
+ <-1> 27/03/2024 18:03:22.734     [Action ] - 2,40468  LogStop() : >>>>> ***** ORACLE *****
+ <-1> 27/03/2024 18:03:22.735     [Action ] - ),40468  LogStop() : <<<<<
+
+
+ <-1> 27/03/2024 18:03:22.736     [Action ] -   LogStart() : >>>>> ***** ODBC *****
+ <-1> 27/03/2024 18:03:22.737     [Action ] -   Version Magic xpa 4.10, Log = test.log,  Level = R&D,  Sync = Reopen,  Date = 27/03/2024
+ <-1> 27/03/2024 18:03:22.737     [Action ] -   LogStart() : <<<<<
+
+
